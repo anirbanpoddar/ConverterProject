@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Information">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Company" maxOccurs="unbounded"
+					minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string" name="Name" minOccurs="1"
+								maxOccurs="1"></xs:element>
+							<xs:element type="xs:string" name="Telephone"
+								minOccurs="1" maxOccurs="1" />
+							<xs:element type="xs:string" name="Email" minOccurs="1"
+								maxOccurs="1" />
+							<xs:element type="xs:string" name="Address" minOccurs="1"
+								maxOccurs="1" />
+							<xs:element name="Employee" maxOccurs="unbounded"
+								minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string" name="Name" minOccurs="1"
+											maxOccurs="1" />
+										<xs:element type="xs:string" name="Telephone"
+											minOccurs="1" maxOccurs="1" />
+										<xs:element type="xs:string" name="Email"
+											minOccurs="1" maxOccurs="1" />
+										<xs:element type="xs:string" name="Address"
+											minOccurs="1" maxOccurs="1" />
+										<xs:element type="xs:string" name="Type" minOccurs="1"
+											maxOccurs="1" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Information>
+	<Company>
+		<Name>Company1</Name>
+		<Telephone>004567890867</Telephone>
+		<Email>company1@company1.com</Email>
+		<Address>Address of Company1</Address>
+		<Employee>
+			<Name>D</Name>
+			<Telephone>004567330868</Telephone>
+			<Email>d@company1.com</Email>
+			<Address>Address of D</Address>
+			<Type>Local</Type>
+		</Employee>
+		<Employee>
+			<Name>B</Name>
+			<Telephone>004567890869</Telephone>
+			<Email>b@company1.com</Email>
+			<Address>Address of B</Address>
+			<Type>Global</Type>
+		</Employee>
+	</Company>
+	<Company>
+		<Name>Company4</Name>
+		<Telephone>004567899909</Telephone>
+		<Email>company4@company4.com</Email>
+		<Address>Address of Company4</Address>
+		<Employee>
+			<Name>H</Name>
+			<Telephone>004567980834</Telephone>
+			<Email>h@company4.com</Email>
+			<Address>Address of H</Address>
+			<Type>Global</Type>
+		</Employee>
+		<Employee>
+			<Name>I</Name>
+			<Telephone>004667890113</Telephone>
+			<Email>i@company4@com</Email>
+			<Address>Address of I</Address>
+			<Type>Global</Type>
+		</Employee>
+		<Employee>
+			<Name>J</Name>
+			<Telephone></Telephone>
+			<Email>j@company4.com</Email>
+			<Address>Address of J</Address>
+			<Type>Local</Type>
+		</Employee>
+	</Company>
+	<Company>
+		<Name>Company5</Name>
+		<Telephone>004567899909</Telephone>
+		<Email>company5@company5.com</Email>
+		<Address>Address of Company5</Address>
+		<Employee>
+			<Name>K</Name>
+			<Telephone>004767980834</Telephone>
+			<Email>k@company4.com</Email>
+			<Address>Address of K</Address>
+			<Type>Global</Type>
+		</Employee>
+	</Company>
+</Information>
